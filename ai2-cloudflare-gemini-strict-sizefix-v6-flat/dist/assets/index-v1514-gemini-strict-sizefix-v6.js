@@ -21272,7 +21272,7 @@ async function yJ(e, t, n) {
   return i;
 }
 function kJ(e) {
-  return typeof e == "string" ? e : String((e == null ? void 0 : e.imageUrl) || "").trim();
+  return typeof e == "string" ? e : String((e == null ? void 0 : e.imageUrl) || (e == null ? void 0 : e.image) || "").trim();
 }
 function wJ(e) {
   const t = kJ(e);
